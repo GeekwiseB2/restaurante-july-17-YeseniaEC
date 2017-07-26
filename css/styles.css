@@ -1,3 +1,7 @@
+/*FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
+
 /*Header Styles*/
 
 .navbar-inverse {
@@ -27,8 +31,6 @@
 
 #wood-background {
   background-image: url('../img/wood-2.jpg');
-  /*display: flex;
-  align-items: center;*/
 }
 #carousel-logo {
   height: 250px;
@@ -60,4 +62,32 @@ button.btn-warning:hover {
 }
 #farm-background {
   background-image: url('../img/farm-2.jpg');
+}
+
+/*OUR STORY STYLES*/
+
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+#our-story {
+  margin: 10% auto;
+}
+
+#our-story .lobster-text {
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 5em;
+}
+
+#our-story h3 {
+  margin-top: 0px;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  color: rgba( 51, 51, 51, .1);
+  font-size: 9em;
 }
