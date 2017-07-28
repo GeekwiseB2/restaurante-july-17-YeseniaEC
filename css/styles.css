@@ -128,3 +128,9 @@ button.btn-warning:hover {
   line-height: 36px;
   font-weight: 300;
 }
+
+.button--center {
+  display: flex;
+  align-items: center;
+
+}
