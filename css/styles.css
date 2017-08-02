@@ -4,6 +4,10 @@
 
 /*Header Styles*/
 
+body {
+  position: relative;
+}
+
 .navbar-inverse {
   background-color: transparent;
   border: none;
@@ -69,7 +73,9 @@ button.btn-warning:hover {
 .lobster-text {
   font-family: 'Lobster', cursive;
 }
-
+.lato-text {
+  font-family: 'Lato', sans-serif;
+}
 #our-story {
   margin: 10% auto;
 }
@@ -133,4 +139,31 @@ button.btn-warning:hover {
   display: flex;
   align-items: center;
 
+}
+
+/*CONTACT FOR SECTION*/
+.topmargin {
+  margin-top: 50px;
+}
+
+.form-style {
+  border: 1px solid white;
+  background-color: #F8512F;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.form-contact {
+  background-color: #F8512F;
+  color: white;
+
+}
+
+.form-contact h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+form p {
+  margin-top: 15px;
 }
