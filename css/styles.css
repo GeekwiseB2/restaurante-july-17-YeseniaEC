@@ -4,6 +4,10 @@
 
 /*Header Styles*/
 
+body {
+  position: relative;
+}
+
 .navbar-inverse {
   background-color: transparent;
   border: none;
